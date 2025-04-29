@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>complete form tag</title>
+</head>
+<body>
+    <form>
+        <!-- Personal section-->
+        <fieldset>
+            <legend>Personal information</legend>
+            <label>Full Name :</label>
+            <input type="text" placeholder="Enter Your Full Name">
+            <br />
+            <br />
+            <label>Email :</label>
+            <input type="email" placeholder="Enter Your email">
+            <br />
+            <br />
+            <label>Password :</label>
+            <input type="password">
+            <br />
+            <label>Age :</label>
+            <input type="date">
+        </fieldset>
+        <!-- Contact section-->
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Phone Number</label>
+            <input type="number" placeholder="123-456-7890">
+            <br/>
+            <label>Addres</label>
+            <textarea>Your Addres here....</textarea>
+        </fieldset>
+        </fieldset>
+        <!--Preferences-->
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="Prefferd Contact Method">Prefferd Contact Method</label> <br/>
+            <input type="radio" name="Prefferd contact method" value="Email"> <label>Email</label>
+            <input type="radio" name="Prefferd contact method" value="Phone"> <label>Phone</label>
+            <br/>
+            <br/>
+            <label for="hobbies">Hobbies</label> <br/>
+            <input type="radio" name="hobbies" value="Roading"> <label>Roading</label>
+            <input type="radio" name="hobbies" value="Traveling"> <label>Traveling</label>
+            <input type="radio" name="hobbies" value="Music"> <label>Music</label>
+            <br/>
+            <br/>
+        </fieldset>
+        <!--details section-->
+        <fieldset>
+        <legend>Additional Details</legend>
+       <select >
+            <option>India</option>
+            <option>Russia</option>
+            <option>Pakistan</option>
+            <option>China</option>
+        </select>
+        <br/>
+        <label>Upload Resume :</label>
+            <input type="file"> <br/>
+        <label>Date of Birth</label>
+        <input type="Date"> <br/>
+        <label>Favourite Colour :</label>
+        <input type="color"> <br/>
+        <label>Satisfaction Level :</label>
+        <input type="range">
+        <br/>
+        </fieldset>
+        <!-- Submit section -->
+        <fieldset>
+            <legend>Submit</legend>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
