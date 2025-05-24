@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            background-color: aliceblue;
+            width: 100%;
+        }
+
+        td {
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            border-style: solid;
+
+        }
+        .color-1{
+            background-color:#309898;
+        }
+        .color-6{
+            background-color:#6FE6FC;
+            width:700px;
+        }
+        .color-8{
+            background-color:#7AE2CF;
+        }
+        .color-11{
+            background-color:#7AE2CF;
+        }
+        .color-16{
+            background-color:#309898;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!--row 1-->
+        <tr>
+            <td colspan="5" class="color-1">1</td>
+        </tr>
+        <!--row-2-->
+        <tr>
+            <td rowspan="3" colspan="2" style="width:20%" class="color-6">6</td>
+
+            <td colspan="3" class="color-8">8</td>
+            <!--row 3-->
+        <tr>
+            <td colspan="3" class="color-11">11</td>
+        </tr>
+        <!--row 4-->
+        <tr>
+            <td colspan="3" class="color-16">16</td>
+        </tr>
+    </table>
+</body>
+
+</html>

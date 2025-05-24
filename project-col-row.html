@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            td{
+                background-color:orange;
+                width:70px;
+                height:25px;
+            }    
+            .tr-5{
+                height:150px;
+            }
+            .tr-7{
+                height:100px;
+            }       
+            .tr-6{
+                height:100px;
+                
+            }
+        </style>       
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>               
+            </tr>
+            <tr>
+                <td style="height:100px;" rowspan="2" class="tr-5">5</td>
+                <td colspan="3" style="width:100px;" class="tr-6">6</td>                               
+            </tr>
+            <tr class="tr-7">
+                <td colspan="3">7</td>
+            </tr>
+        </table>
+    </body>
+</html>
