@@ -1,158 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio-1</title>
     <style>
-        body{
-            width:100vw;
-            height:100vh;
+        body {
+            width: 100vw;
+            height: 100vh;
         }
-        .box{
-            width:100%;
-            height:50px;
-            background-color: aqua;
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .box-1{
-            width:100%;
-            height:50px;
-            background-color: red;
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        
-        .box-6{
-            width:100%;
-            height:600px;
-            font-size: 40px;
-            margin-left:10%;
-        }
-        .main-container{
+
+        .box {
             width: 100%;
-            height: 100%;
-        }
-        h1{
-            font-size:40px;
-        }
-        button{
-            width:200px;
-            height:50px;
-        }
-        .box-7{
-            margin-left:300px;
-        }
-        .box-8{
-            width:100%;
-            height:400px;
-            background-color: coral;
-            display:flex;
+            height: 50px;
+            background-color: aqua;
+            display: flex;
             justify-content: space-around;
             align-items: center;
         }
-        .box-9{
-            width:300px;
-            height:300px;
-            background-color: antiquewhite;
+
+        .box-1 {
+            width: 100%;
+            height: 50px;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box-6 {
+            width: 100%;
+            height: 600px;
+            font-size: 40px;
+            margin-left: 10%;
+            background-color: blue;
+        }
+
+        .main-container {
+            width: 100%;
+            height: 120%;
+            background-color: black;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+        }
+
+        .box-7 {
+            margin-left: 300px;
+        }
+
+        .box-8 {
+            width: 100%;
+            height: 400px;
+            background-color: coral;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box-9 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(115, 115, 115);
             border-radius: 20px;
         }
-        .box-9:hover{
+
+        .box-9:hover {
             background-color: darkslategrey;
         }
-        .box-10{
-            width:300px;
-            height:300px;
-            background-color: antiquewhite;
+
+        .box-10 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(115, 115, 115);
             border-radius: 20px;
         }
-        .box-10:hover{
+
+        .box-10:hover {
             background-color: darkslategrey;
         }
-        .box-11{
-            width:300px;
-            height:300px;
-            background-color: antiquewhite;
+
+        .box-11 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(115, 115, 115);
             border-radius: 20px;
         }
-        .box-11:hover{
+
+        .box-11:hover {
             background-color: darkslategrey;
         }
-        .box-12{
-            font-size:30px;
-            margin-left:50px;
+
+        .box-12 {
+            font-size: 30px;
+            margin-left: 50px;
         }
-        
-        .box-13{
-            font-size:20px;
-            margin-left:90px;
+
+        .box-13 {
+            font-size: 20px;
+            margin-left: 90px;
         }
-        .box-14{
-            margin-left:50px;    
+
+        .box-14 {
+            margin-left: 50px;
         }
-        .box-14:hover{
+
+        .box-14:hover {
             background-color: green;
         }
-        .box-15{
-            font-size:20px;
+
+        .box-15 {
+            font-size: 20px;
         }
-        .box-16{
-            margin-left:50px;
+
+        .box-16 {
+            margin-left: 50px;
         }
-        .box-16:hover{
+
+        .box-16:hover {
             background-color: green;
         }
-        .box-17{
-            Margin-left:30px;
+
+        .box-17 {
+            Margin-left: 30px;
         }
-        .box-18{
-            margin-left:70px;
+
+        .box-18 {
+            margin-left: 70px;
         }
-        .box-19{
-            margin-left:50px;
-            margin-top:50px;
+
+        .box-19 {
+            margin-left: 50px;
+            margin-top: 50px;
         }
-        .box-19:hover{
+
+        .box-19:hover {
             background-color: green;
         }
-        .main{
-            background-color: rgb( 38, 55, 70);
+
+        .main {
+            background-color: rgb(38, 55, 70);
             width: 100%;
             height: 200px;
             text-align: center;
-            color:beige;
+            color: beige;
         }
-        .box-20{
-            background-color:navajowhite;
-            width:300px;
-            height:300px;
+
+        .box-20 {
+            background-color: white;
+            width: 400px;
+            height: 300px;
             border-radius: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 125px;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            font-weight: 300;
+            text-align: center;
         }
-        .box-21{
-            background-color:navajowhite;
-            width:300px;
-            height:300px;
-            border-radius:40px;
-        }
-        .box-22{
-            background-color:navajowhite;
-            width:300px;
-            height:300px;
+
+        .box-21 {
+            background-color: navajowhite;
+            width: 400px;
+            height: 300px;
             border-radius: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 190px;
+            margin-left: 20px;
+            font-style: oblique;
         }
-        .main-1{
-            background-color: rgb( 38, 55, 70);
-            width:100%;
-            height:350px;
+
+        .main-1 {
+            background-color: rgb(38, 55, 70);
+            width: 100%;
+            height: 350px;
             display: flex;
             justify-content: space-around;
         }
+
+        .main-2 {
+            width: 100%;
+            height: 700px;
+            background-color:lightsalmon;
+            text-align: center;
+        }
+        .box-22{
+            font-size: 30px;
+        }
     </style>
-    <body>
-        <div class="main-container">
+
+<body>
+    <div class="main-container">
         <div class="box">Portfolio</div>
         <div class="box-1">
             <div class="box-2">Home</div>
@@ -164,9 +210,8 @@
         <div class="box-6">
             <p>Hii,My Name Is Arnav Dhopre.</p>
             <h1>A developer and content creator on a mission to be in the top 0.00001%.
-
             </h1>
-            <button>View My Work</button> <br> <br> 
+            <button>View My Work</button> <br> <br>
             <button>Get In Touch Of Me</button> <br> <br>
             <h1 class="box-7">Featured Works</h1>
             <p>A selection of my recent projects and collaborations.</p>
@@ -175,15 +220,16 @@
             <div class="box-9">
                 <h1 class="box-12">Flower Gallery</h1> <br>
                 <pc class="box-13">Ecom Website</p> <br> <br> <br>
-                <button class="box-14">Buy Now</button>
+                    <button class="box-14">Buy Now</button>
             </div>
             <div class="box-10">
                 <h1 class="box-17">Periodic Table</h1>
-                <p class="box-15">The periodic table is a chart that organizes all known chemical elements. It arranges them by atomic number. </p>
+                <p class="box-15">The periodic table is a chart that organizes all known chemical elements. It arranges
+                    them by atomic number. </p>
                 <button class="box-16">Let's Learn</button>
             </div>
             <div class="box-11">
-                <h1>Let's PLay Chess</h1>   <br>
+                <h1>Let's PLay Chess</h1> <br>
                 <p class="box-18">Play at poki-games.com</p>
                 <button class="box-19">Login To Play</button>
             </div>
@@ -191,15 +237,28 @@
         <div class="main">
             <h1>My Technical Skills</h1>
             <p>Technologies I've mastered on my journey</p> <br> <br> <br> <br>
-            </div>
-            <div class="main-1">
-            <div class="box-20">
-                <h1>Development</h1>
-                <p></p>
-            </div>
-            <div class="box-21"></div>
-            <div class="box-22"></div>
-            </div>
         </div>
-    </body>
+        <div class="main-1">
+            <div class="box-20" style="display:flex; align-items: center;">HTML</div>
+            <div class="box-21" style="display: flex; justify-content: center; align-items: center;">CSS</div>
+        </div>
+        <div class="main-2">
+            <h1>About Me</h1>
+            <h2>Yo,I'm Arnav Dhopre</h2>
+            <p class="box-22">I'm that front-end dev who's trying to build stuff that'll make you go "damn, that's clean!" I'm from India, and I live and breathe code, but also live for creativity.
+
+            </p>
+            <br>
+            <p class="box-22">I started my journey just vibing with design, and now I'm all about making web experiences that feel smooth and look fire. Coding’s my game, and I always keep it simple yet powerful.
+
+            </p>
+            <br>
+            <p class="box-22">When I’m not coding, you’ll probably find me making random content, geeking out over the latest design trends, or chilling with my squad, Protocol V. It’s all about pushing limits, breaking barriers, and learning more every single day.
+
+            </p>
+            <h1>Things I’m Lowkey Obsessed With
+            </h1>
+        </div>
+    </div>
+</body>
 </html>
